@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "wait": "await-backend",
-    "launcher": "launch-storefront",
+    "launcher": "launch-storefront", 
     "dev": "npm run wait && npm run launcher dev",
     "build": "npm run wait && npm run launcher build",
     "start": "npm run launcher start",
@@ -22,6 +22,8 @@
     "webpack": "^5"
   },
   "dependencies": {
+    "@builder.io/react": "^3.2.7",
+    "@builder.io/sdk": "^2.2.5",
     "@headlessui/react": "^1.6.1",
     "@hookform/error-message": "^2.0.0",
     "@medusajs/js-sdk": "preview",
